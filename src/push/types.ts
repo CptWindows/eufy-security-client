@@ -122,7 +122,6 @@ export enum GarageDoorPushEvent {
 
 export enum SmartSafeEvent {
     ALARM_911 = 1946161152,
-    BASE = 1946161152,
     LOCK_STATUS = 1946161153,
     SHAKE_ALARM = 1946161154,
     BATTERY_STATUS = 1946161155,
@@ -196,4 +195,9 @@ export enum NotificationStyle {
     TEXT = 1,
     THUMB = 2,
     ALL = 3
+}
+
+export enum AlarmAction {
+    CANCEL_APP = 0,
+    CANCEL_NOLIGHT = 1,
 }
